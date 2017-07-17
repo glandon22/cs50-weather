@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS50 Weather</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+</head>
+<body>
+<div id="container-float">
+    <div id="main-content">
+        <div id="weather-info">
+            <table id="weather-values">
+                <tr>
+                    <td></td>
+                    <td id="weather-words"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td id="actual"></td>
+                    <td id="weather-icon"></td>
+                    <td id="feels"></td>
+                </tr>
+                <tr>
+                    <td id="temp"></td>
+                    <td id="location"></td>
+                    <td id="feels-like"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                    <button class="weather-buttons" id="convert">Convert to C</button>
+                    <button class="weather-buttons" id="more-weather">Find More Weather</button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="search-holder">
+            <div id="explanation">
+                <p id="explanation-text">Search for weather by zip code or with the local weather button!</p>
+                <input type="text" name="location" id="location-search" placeholder="Zip Code">
+                <button type="submit" class="search action-button shadow animate green">Search by Zip Code</button>
+                <button type="submit" class="search action-button shadow animate blue">Show Local Weather</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,136 @@
+body {
+    background-image: url("sunny.jpg");
+    background-size: cover;
+}
+
+#explanation {
+    position: absolute;
+    top: 38%;
+    right: 32.5%;
+    width: 20em;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding-left: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#explanation-text {
+    margin-bottom: 10px;
+}
+
+#location-search {
+    height: 35px;
+    width: 200px;
+    font-size: 1.5em;
+    color: rgba(0,0,0);
+}
+
+/* button styles found here https://codepen.io/cheeriottis/pen/inluv, with slight modifications */
+
+.action-button:active {
+    transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+.action-button {
+    position: relative;
+    margin: 0px 10px 10px 0px;
+    float: right;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.action-button:focus {
+    outline: none;
+}
+
+.animate {
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.green {
+    background-color: #82BF56;
+    border-bottom: 5px solid #669644;
+    border-right: #82BF56;
+    border-left: #82BF56;
+    border-top: #82BF56;
+    text-shadow: 0px -2px #669644;
+}
+
+.blue {
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    border-right: #2980B9;
+    border-left: #2980B9;
+    border-top: #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    font-size: .95em;
+}
+
+/* end button information */
+
+#weather-info {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    visibility: hidden;
+}
+
+#weather-values {
+    padding: 2px;
+    padding-right: 17px;
+}
+
+#weather-words {
+    display: block;
+    text-align: center;
+}
+
+#temp {
+    float: left;
+    padding-left: 1em;
+}
+
+#weather-icon {
+    text-align: center;
+}
+
+#feels-like {
+    float: right;
+    top: 50%;
+    padding-right: .6em;
+}
+
+#location {
+    clear: both;
+    text-align: center;
+}
+
+#location-search {
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.weather-buttons {
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
